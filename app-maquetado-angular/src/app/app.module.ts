@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadearComponent } from './components/headear/headear.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AutosComponent } from './components/autos/autos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadearComponent
+    HeadearComponent,
+    AutosComponent
   ],
   imports: [
     BrowserModule,
