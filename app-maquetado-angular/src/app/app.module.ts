@@ -7,13 +7,15 @@ import { HeadearComponent } from './components/headear/headear.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AutosComponent } from './components/autos/autos.component';
 import { AutosItemComponent } from './components/autos-item/autos-item.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadearComponent,
     AutosComponent,
-    AutosItemComponent
+    AutosItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
