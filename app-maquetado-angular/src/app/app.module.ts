@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeadearComponent } from './components/headear/headear.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AutosComponent } from './components/autos/autos.component';
+import { AutosItemComponent } from './components/autos-item/autos-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadearComponent,
-    AutosComponent
+    AutosComponent,
+    AutosItemComponent
   ],
   imports: [
     BrowserModule,

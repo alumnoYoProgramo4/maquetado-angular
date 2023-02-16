@@ -1,7 +1,9 @@
 <div class="container">
     <h4 class="my-6 text-center text-primary">{{titulo}}</h4>
     <hr>
-    <p *ngFor="let auto of autos">
-        {{auto.Modelo}}
-    </p>   
+    <app-autos-item 
+        *ngFor="let auto of autos">
+        [autos]="autos"
+    >
+    </app-autos-item>   
 </div>

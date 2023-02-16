@@ -7,6 +7,6 @@ export const AUTOS : Autos[] = [
         Marca:"Toyota",
         Responsable:"Juan",
         Detalle:"Descripcion del vehiculo",
-        Foto:"./img/Auto.jpg"
+        Foto:"app/img/Auto.jpg"
     }
 ]
